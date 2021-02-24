@@ -1,5 +1,5 @@
 {
-  "name": "my-work-npm-test",
+  "name": "@myworktest/my-work-npm-test",
   "files": ["./dist"],
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
