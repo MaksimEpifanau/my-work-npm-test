@@ -2,7 +2,7 @@
   "name": "my-work-npm-test",
   "files": ["./dist"],
   "repository": "https://github.com/MaksimEpifanau/my-work-npm-test.git",
-  "version": "0.1.1",
+  "version": "0.1.5",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
   "source": "src/index.js",
@@ -15,10 +15,7 @@
   },
   "scripts": {
     "build": "rollup -c",
-    "build-watch": "rollup -c -w", 
-    "start-playground": "cd playground && npm run start",
-    "i-all": "npm i && cd playground && npm i",
-    "dev": "npm-run-all --parallel build-watch start-playground"
+    "publish": "npm run build && npm publish"
   },
   "eslintConfig": {
     "extends": [
